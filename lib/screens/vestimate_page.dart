@@ -45,9 +45,10 @@ mainAxisAlignment: MainAxisAlignment.spaceEvenly,
 
                       child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
 
-                            Icon(  Icons.shopping_cart_outlined,size: 50,color: Colors.blueAccent,),
+                          children:[
+
+                            Icon(  Icons.shopping_cart_outlined,size: 50,color: Colors.blueAccent),
                             Text('Buying',style: TextStyle( color:Colors.black54,fontWeight: FontWeight.w700,fontSize: 16)),
 
                           ]),
@@ -77,7 +78,7 @@ mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Icon(  Icons.home_rounded,size: 50,color: Colors.blueAccent,),
+                          Icon(  Icons.home_outlined,size: 50,color: Colors.blueAccent,),
                           Text('Selling',style: TextStyle( color:Colors.black54,fontWeight: FontWeight.w700,fontSize: 16)),
                         ],
                       ),
@@ -112,7 +113,7 @@ mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Icon(  Icons.shopping_bag,size: 50,color: Colors.blueAccent,),
+                      Icon(  Icons.wallet_travel_rounded,size: 50,color: Colors.blueAccent,),
                       Text('Trades',style: TextStyle( color:Colors.black54,fontWeight: FontWeight.w700,fontSize: 16)),
                     ],
                   ),
@@ -175,13 +176,12 @@ mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Icon(  Icons.bookmark_border_sharp,size: 50,color: Colors.blueAccent,),
+                      Icon(  Icons.bookmark_border,size: 50,color: Colors.blueAccent,),
                       Text('Deals',style: TextStyle( color:Colors.black54,fontWeight: FontWeight.w700,fontSize: 16)),
                     ],
                   ),
                 ),
                 Container(
-                  margin: EdgeInsets.only(bottom: 0),
                   width: 170,
                   height: 170,
                   decoration: BoxDecoration(
@@ -196,11 +196,13 @@ mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       ),
                       boxShadow:[
                         BoxShadow(
+
                             color: Colors.grey.withOpacity(0.2),
                             spreadRadius: 5,
                             blurRadius: 10)]),
 
                   child: Column(
+
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Icon(  Icons.menu_book_outlined,size: 50,color: Colors.blueAccent,),
@@ -210,13 +212,7 @@ mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 ),
               ],
             ),
-                // Column(
-                //
-                // ),
               ],
-
-
-
         )
     );
   }
